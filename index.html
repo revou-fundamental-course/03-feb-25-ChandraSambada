@@ -1,14 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My-Web Project</title>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Konvensi Suhu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Liter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles\style.css">
 </head>
+
 <body>
-    
+  <header class="main-head">
+    <h1>
+      Konvensi Suhu
+    </h1>
+  </header>
+
+
+  <main>
+    <div class="content">
+      <div class="intro">
+        <p>Sebuah Web untuk mengonvensikan Suhu Celsius (&deg;C)
+          Menjadi Fahrenheit (&deg;F).
+        </p>
+      </div>
+      <form id="main">
+        <label for="input">Masukkan Suhu Celsius:</label>
+        <input type="number" id="main-input" placeholder="Masukkan Angka">
+      </form>
+      <div class="button-group">
+        <button type="submit">Konvensi</button>
+        <button class="Reset">Reset</button>
+      </div>
+      <div class="hasil">
+        <label for="result">Fahrenheit :</label>
+        <input type="text" id="main-result">
+      </div>
+      <div class="explanation"></div>
+
+
+    </div>
+
+  </main>
+
+  <footer>
+    <hr>
+   <div class="copy-right">
+    <p>Made by Chandra@2025</p>
+   </div>
+  </footer>
 </body>
 
 <script src="js\script.js"></script>
+
 </html>
